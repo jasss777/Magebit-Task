@@ -10,3 +10,12 @@ Configuration:
   - Nginx configuration example file is located in Components/NginxSettingExample.txt
   - Create Database and run sql dump. SQL dump file is located in Components/userstable.sql
   - Edit mysql settings in core/init.php (change host,username,password,db to your settings)
+  
+  ToDoList:
+    1)Remove all alert messages and add them in message block.
+    2)Create logged in user panel.
+    3)Create ajax on login and registration  (do not reload page if user enter wrong data)
+    4)Add in user panel profile page, (add birth data field, nickanem field)
+    5)Make Responsive CSS
+    6)Document code with phpDoc
+    
