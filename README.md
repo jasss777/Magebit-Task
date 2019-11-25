@@ -28,10 +28,9 @@ Configuration:
   ToDoList:
   
     1)Remove all alert messages and add them in message block.
-    2)Create logged in user panel.
-    3)Create ajax on login and registration  (do not reload page if user enter wrong data)
-    4)Add in user panel profile page, (add birth data field, nickanem field)
-    5)Make Responsive CSS
-    6)Document code with phpDoc
+    2)Create ajax on login and registration  (do not reload page if user enter wrong data)
+    3)Add in user panel profile page, (add birth data field, nickanem field)
+    4)Make Responsive CSS
+    5)Document code with phpDoc
     
 
