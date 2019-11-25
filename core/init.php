@@ -4,9 +4,9 @@ session_start();
 $GLOBALS['config'] = array(
         'mysql' => array(
             'host' => '127.0.0.1',
-            'username' => 'dbuser', //magebit
-            'password' => 'dbuser1234', //magebit123
-            'db' => 'testdb'
+            'username' => 'sqluser',
+            'password' => 'sqlpass',
+            'db' => 'dbname'
         ),
         'remember' => array(
             'cookie_name' => 'hash',
