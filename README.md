@@ -12,6 +12,7 @@ Configuration:
   - Edit mysql settings in core/init.php (change host,username,password,db to your settings)
   
   ToDoList:
+  
     1)Remove all alert messages and add them in message block.
     2)Create logged in user panel.
     3)Create ajax on login and registration  (do not reload page if user enter wrong data)
@@ -19,3 +20,4 @@ Configuration:
     5)Make Responsive CSS
     6)Document code with phpDoc
     
+
