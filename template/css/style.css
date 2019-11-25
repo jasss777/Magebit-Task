@@ -120,6 +120,7 @@ html{
   font-size: 20px;
   font-weight: bolder;
   word-break: break-all;
+  text-align: center;
 
 }
 
@@ -135,6 +136,13 @@ html{
   .form-line {
     background-color:#49abfe;
     width: 35px;
+    height: 2px;
+
+  }
+
+  .welcome-line {
+    background-color:#49abfe;
+    width: 100%;
     height: 2px;
 
   }
