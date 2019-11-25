@@ -26,6 +26,7 @@ Configuration:
   
   
   ToDoList:
+  
     1)Remove all alert messages and add them in message block.
     2)Create logged in user panel.
     3)Create ajax on login and registration  (do not reload page if user enter wrong data)
