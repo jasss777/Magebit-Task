@@ -88,7 +88,8 @@ if (Session::exists('home')) {
     if ($user->isLoggedIn()) {
       ?>
       <div id="login-field">
-        <div class="title-text mb-15"> Welcome! <i class="mb-icon mb-15"></i> </div>
+        <div class="title-text "> Welcome! <i class="mb-icon "></i> </div>
+        <div class="welcome-line mb-15"></div>
         <div class="user-name-text mb-25"><?php echo escape($user->data()->name); ?></div>
         <div class="mb-15"><a class="link-text" href="#">Action1</a></div>
         <div class="mb-15"><a class="link-text" href="#">Action2</a></div>
