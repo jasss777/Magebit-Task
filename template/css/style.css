@@ -92,6 +92,14 @@ html{
     width: 280px;
   }
 
+  #user-fields{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+  }
+
   #signup-field{
     position: absolute;
     left: 50%;
@@ -104,7 +112,15 @@ html{
 .title-text{
   color: #3e495e;
   font-size: 28px;
-  font-weight: lighter;
+  font-weight: bold;
+}
+
+.user-name-text{
+  color: #3e495e;
+  font-size: 20px;
+  font-weight: bolder;
+  word-break: break-all;
+
 }
 
 .mb-icon{
@@ -219,6 +235,10 @@ input{
   margin-bottom: 25px;
 }
 
+.mb-15{
+  margin-bottom: 15px;
+}
+
 
 .login-btn{
   background-color: #f89a35;
@@ -257,6 +277,7 @@ input{
 .show{
   display: block;
 }
+
 
 
 
