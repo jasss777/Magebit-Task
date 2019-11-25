@@ -1,4 +1,4 @@
-# Magebit-Test
+# Test-Test
 
 Requirements:
   - Nginx Webserver // sudo apt install nginx
