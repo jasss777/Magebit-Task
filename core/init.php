@@ -1,6 +1,10 @@
 <?php
 session_start();
-
+ /**
+ * config - sql connection settings.
+ * remember - how long user stay logged in if they check box (in seconds).
+ * session - generate token in each page.
+ */ 
 $GLOBALS['config'] = array(
         'mysql' => array(
             'host' => '127.0.0.1',
@@ -20,6 +24,9 @@ $GLOBALS['config'] = array(
         )
 );
 
+ /**
+ * sql_autoload_register - autoload required classes & functions
+ */ 
 spl_autoload_register(function($class){
 require_once __DIR__. '/../classes/'. $class .'.php';
 });
