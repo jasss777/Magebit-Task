@@ -1,5 +1,8 @@
 <?php
 class Config{
+ /**
+ * method get - use configs from init.php if exist.
+ */ 
     public static function get($path = null){
         if ($path) {
             $config = $GLOBALS['config'];
