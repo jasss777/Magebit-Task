@@ -1,14 +1,22 @@
 <?php
 class Validate {
-
     private $_passed = false,
             $_errors = array(),
             $_db = null;
 
+     /**
+    *  $this->_db - create new db instance
+    */ 
     public function __construct(){
         $this->_db = DB::getInstance();
     }
 
+    /**
+    *  method check - require $source = Get or Post and $items = name, password, email.
+    * $value  - using foreach in $items add each $item element to $value and than check each $item rules.
+    * if any of rules is not passed add error.
+    * check if error count = 0, if yes than change $_passed from false to true.
+    */ 
     public function check($source, $items = array()){
         foreach($items as $item => $rules){
             foreach($rules as $rule => $rule_value){
